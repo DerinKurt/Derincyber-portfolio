@@ -14,9 +14,10 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2"> Coming Soon</h3>
+              <h3 className="text-xl font-bold mb-2"> Cloud Platform</h3>
               <p className="text-gray-400 mb-4">
-                Coming soon
+                Scalable cloud infrastructure management with real-time
+                monitoring and automated scaling.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
@@ -48,9 +49,10 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Coming soon</h3>
+              <h3 className="text-xl font-bold mb-2">AI Analytics Dashboard</h3>
               <p className="text-gray-400 mb-4">
-              Coming soon
+                ML-powered data visualization platform with predictive analytics
+                and interactive reports.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Python", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
@@ -86,9 +88,10 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Coming soon</h3>
+              <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
               <p className="text-gray-400 mb-4">
-              Coming soon
+                Full-stack e-commerce with modern UI, secure payment
+                integration, and customizable product inventory.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
@@ -126,9 +129,10 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Coming soon</h3>
+              <h3 className="text-xl font-bold mb-2">Real-Time Chat App</h3>
               <p className="text-gray-400 mb-4">
-              Coming soon
+                Scalable chat platform supporting real-time messaging, presence,
+                and group chat features.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Socket.IO", "Express", "React", "Redis"].map((tech, key) => (
