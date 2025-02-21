@@ -93,7 +93,7 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Work In Progress (2019){" "}
+                    Work In Progress (){" "}
                   </h4>
                   <p>
                     Coming Soon...
